@@ -1,0 +1,57 @@
+.banner-box {
+    position: relative;
+    height: 460px;
+    background: url(../images/banner.webp) no-repeat;
+}
+
+.nav-aside {
+    width: 235px;
+    height: 460px;
+    font-size: 14px;
+}
+
+div[class^='icon'] {
+    font-family: 'icomoon';
+    width: 43px;
+    height: 48px;
+    font-size: 24px;
+    line-height: 48px;
+}
+
+.icon-prev {
+    position: absolute;
+    top: 206px;
+    left: 250px;
+}
+
+.icon-next {
+    position: absolute;
+    top: 206px;
+    right: 0;
+}
+
+.nav {
+    height: 460px;
+    background: rgba(105, 101, 101, .6);
+    padding: 20px 0;
+    color: #fff;
+}
+
+.nav li:hover {
+    background-color: #FF6600;
+}
+
+.nav-items a {
+    display: block;
+    height: 42px;
+    padding-left: 30px;
+    color: #FFF;
+    line-height: 42px;
+}
+
+.nav-items a::after {
+    content: '\ea50';
+    float: right;
+    font-family: 'icomoon';
+    margin-right: 35px;
+}
