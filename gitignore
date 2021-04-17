@@ -1,0 +1,4 @@
+#忽略demo-files下的文件
+demo-files/
+#忽略favicon.ico文件
+favicon.ico
